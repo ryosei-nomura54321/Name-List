@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>番号決めアプリ</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="main_wrap">
+      <input type="text" id="input_name" value='' placeholder="名前を入力してください">
+      <button id="add_button">追加</button>
+      <div>
+        <ul id="namelists"></ul>
+      </div>
+      <button id="sort_button">結果</button>
+    </div>
+  
+    <div>
+      <ol id="result"></ol>
+    </div>
+  
+    <button id="back_button">やり直し</button>  
+  </div>
+
+  <script src="index.js"></script>
+
+</body>
+</html>
